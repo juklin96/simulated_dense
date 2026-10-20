@@ -14,4 +14,4 @@ Together with this prompt, I attached the 2 files from the simulated dataset #1 
 >
 > Please do simulate both intra- and interindividual variations.
 
-Resulting script can be found in the python file "generate_synthetic_fibromyalgia_dataset"
+Resulting script for simulated data generation can be found in /code/generate_data.py
