@@ -1,34 +1,38 @@
 # Dependencies
 
-This project uses R for data cleaning, statistical analysis, and visualisation.
+This project uses Python for data cleaning, statistical analysis, and visualisation.
 
 ## Software
 
-- R (version 4.6.1)
+- Python (version 3.11.17)
 - Positron (optional; used as the development environment)
 - Git (for version control)
 
-## R packages
+## Python packages
 
 The following R packages are required:
 
 | Package | Purpose |
 |---|---|
-| `dplyr` | Data manipulation and preparation |
-| `gtsummary` | Creating summary statistics tables |
-| `gt` | Formatting and exporting tables |
+| `pathlib` | OS navigation |
+| `numpy` | Data manipulation and preparation |
+| `pandas` | Reading csv files |
+| `matplotlib.pyplot` | Data visualization and plotting |
 
-Base R is used for importing CSV files and performing data cleaning. No additional packages are required for the data-cleaning script.
 
 ## Installation
 
-To install the required packages, run the following command in R:
+To install the required packages, run the following command in Python:
 
 ```r
-install.packages(c("dplyr", "gtsummary", "gt"))
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 ```
 
 ## Notes
 
 - The project uses simulated data.
-- Raw data files are excluded from the GitHub repository using `.gitignore`.
+- Raw data files are included in the repo in /data.
