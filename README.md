@@ -13,7 +13,7 @@ All analysis code. For dependencies, see dependencies.md.
 Code should be run in the following order:
 1. generate_data.py : for generating the simulated data
 2. clean_data.py    : for cleaning the simulated data
-3. analysis.py      : analyzing the data; automatically generate figures and report
+3. analysis.py      : analyzing the data; automatically generate figures and report <-- currently does not exist!
 
 The flowchart below shows a full overview of outputs from each part of the code.
 
